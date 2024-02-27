@@ -4,13 +4,6 @@ return {
   priority = 1000, -- make sure to load this before all the other start plugins
   config = function()
     require("github-theme").setup({})
-
-    local time = os.date("*t").hour
-
-    if time < 19 then
-      vim.cmd("colorscheme github_light")
-    else
-      vim.cmd("colorscheme github_dark")
-    end
+    vim.cmd("colorscheme github_dark")
   end,
 }
