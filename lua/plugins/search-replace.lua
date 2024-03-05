@@ -1,5 +1,3 @@
-vim.keymap.set("n", "<leader>r", ":SearchReplaceSingleBufferOpen<CR>", { silent = true })
-
 return {
   "roobert/search-replace.nvim",
   config = function()
