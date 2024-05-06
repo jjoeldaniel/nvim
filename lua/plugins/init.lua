@@ -35,8 +35,11 @@ return {
         "shfmt",
         "tailwindcss-language-server",
         "typescript-language-server",
+        "svelte-language-server",
+        "astro-language-server",
         "prettier",
         "eslint-lsp",
+        "rust-analyzer"
       },
     },
   },
@@ -50,6 +53,9 @@ return {
         "vimdoc",
         "html",
         "css",
+        "astro",
+        "svelte",
+        "rust"
       },
     },
   },
