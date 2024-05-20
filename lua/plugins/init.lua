@@ -39,6 +39,7 @@ return {
         "astro-language-server",
         "prettier",
         "eslint-lsp",
+        "rust-analyzer"
       },
     },
   },
