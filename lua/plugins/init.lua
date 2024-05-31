@@ -54,7 +54,8 @@ return {
         "html",
         "css",
         "astro",
-        "svelte"
+        "svelte",
+        "rust"
       },
     },
   },
