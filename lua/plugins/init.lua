@@ -1,7 +1,7 @@
 return {
   {
     "stevearc/conform.nvim",
-    -- event = 'BufWritePre', -- uncomment for format on save
+    event = 'BufWritePre', -- uncomment for format on save
     config = function()
       require "configs.conform"
     end,
@@ -28,7 +28,7 @@ return {
         "clang-format",
         "ruff",
         "ruff-lsp",
-        "pyright",
+        "basedpyright",
         "black",
         "java-language-server",
         "bash-language-server",
