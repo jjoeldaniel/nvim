@@ -32,3 +32,5 @@ else
     },
 }
 end
+
+opt.colorcolumn = "80"
