@@ -20,4 +20,6 @@ map("n", "<leader>t", function()
   }
 end)
 
+map("n", "<leader>b", ":Telescope buffers<CR>", { silent = true })
+
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
