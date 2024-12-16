@@ -7,7 +7,7 @@ local M = {}
 
 M.base46 = {
   theme = "onedark",
-  -- transparency = true
+  transparency = true,
 
   -- hl_override = {
   -- 	Comment = { italic = true },
@@ -16,7 +16,7 @@ M.base46 = {
 }
 
 M.nvdash = {
-  load_on_startup = true
+  load_on_startup = true,
 }
 
 M.mason = {
@@ -42,6 +42,7 @@ M.mason = {
     "eslint-lsp",
     "rust-analyzer",
     "gopls",
+    "phpactor",
   },
 }
 
