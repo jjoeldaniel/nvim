@@ -30,7 +30,6 @@ M.mason = {
     "ruff",
     "ruff-lsp",
     "basedpyright",
-    "black",
     "java-language-server",
     "bash-language-server",
     "shfmt",
