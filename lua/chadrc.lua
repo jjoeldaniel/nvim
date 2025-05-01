@@ -28,7 +28,6 @@ M.mason = {
     "clangd",
     "clang-format",
     "ruff",
-    "ruff-lsp",
     "basedpyright",
     "java-language-server",
     "bash-language-server",
@@ -37,11 +36,10 @@ M.mason = {
     "typescript-language-server",
     "svelte-language-server",
     "astro-language-server",
-    "prettier",
+    "prettierd",
     "eslint-lsp",
     "rust-analyzer",
     "gopls",
-    "phpactor",
   },
 }
 
