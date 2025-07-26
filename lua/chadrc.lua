@@ -36,7 +36,7 @@ M.mason = {
     "typescript-language-server",
     "svelte-language-server",
     "astro-language-server",
-    "prettier",
+    "prettierd",
     "eslint-lsp",
     "rust-analyzer",
     "gopls",
