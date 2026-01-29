@@ -1,8 +1,10 @@
 return {
-  "ggandor/leap.nvim",
+  "https://codeberg.org/andyg/leap.nvim",
   config = function()
-    vim.keymap.set({'n', 'x', 'o'}, 's', '<Plug>(leap)')
-    vim.keymap.set('n',             'S', '<Plug>(leap-backward)')
+    local map = vim.keymap.set
+
+    map({ 'n', 'x', 'o', 'v' }, 's', '<Plug>(leap)')
+    map({ 'n', 'v'}, 'S', '<Plug>(leap-backward)')
   end,
   lazy = false,
 }
